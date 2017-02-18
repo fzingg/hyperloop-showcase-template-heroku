@@ -13,6 +13,29 @@ This tutorial requires you already have the **Hyperloop showcase** running perfe
 ```
 heroku login
 heroku create
+heroku addons:create heroku-postgresql
+```
+
+```
+#config/database.yml
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: hyperloop-showcase-template-heroku_production
+  username: hyperloop-showcase-template-heroku
+  password: <%= ENV['HYPERLOOP-SHOWCASE-TEMPLATE-HEROKU_DATABASE_PASSWORD'] %>
+```
+
+```
+#Gemfile
+
+	ruby '2.3.1'
+
+```
+
+```
 git add .
 git commit - m "init"
 git push heroku master
