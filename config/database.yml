@@ -1,0 +1,9 @@
+
+development:
+ adapter: postgresql
+ encoding: unicode
+ database: hyperloop-showcase-template-heroku
+ pool: 5
+ username: fcooker
+ password: Beloos-27021975
+
