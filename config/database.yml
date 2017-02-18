@@ -7,3 +7,9 @@ development:
  username: fcooker
  password: Beloos-27021975
 
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: hyperloop-showcase-template-heroku_production
+  username: hyperloop-showcase-template-heroku
+  password: <%= ENV['HYPERLOOP-SHOWCASE-TEMPLATE-HEROKU_DATABASE_PASSWORD'] %>
