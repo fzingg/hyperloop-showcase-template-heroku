@@ -66,6 +66,12 @@ config.assets.compile = true
 ```
 
 ```
+#Procfile
+
+web: bundle exec puma -C config/puma.rb
+```
+
+```
 git add .
 git commit - m "init"
 git push heroku master
