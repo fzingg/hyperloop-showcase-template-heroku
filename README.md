@@ -11,13 +11,13 @@ This tutorial is the fourth chapter of a serie containing 4 chapters :
 
 For more information : [HyperLoop Web site](http://ruby-hyperloop.io/)
 
-### INTRODUCTION
+## INTRODUCTION
 
 This tutorial shows how to deploy quickly the **Hyperloop showcase** on a **HEROKU** Server.
 
 This tutorial requires you already have the **Hyperloop showcase** running perfectly on your local environment. If it's not yet the case, please read and follow one of these 2 tutorials : [Hyperloop Showcase](https://github.com/fzingg/hyperloop-showcase) and [Hyperloop Showcase Template](https://github.com/fzingg/hyperloop-showcase-template)
 
-### DEPLOYING TUTORIAL
+## DEPLOYING TUTORIAL
 
 #### Setup of a new HEROKU app
 
