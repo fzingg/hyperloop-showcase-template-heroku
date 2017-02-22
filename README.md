@@ -1,25 +1,25 @@
-# Deploying HyperLoop Showcase on HEROKU (Fast way)
+# Deploying Hyperloop Showcase on Heroku (Fast way)
 
 ## Preamble
 
-This tutorial is the fourth chapter of a serie containing 4 chapters :
+This tutorial is the fourth in a series of four:
 
 + Chapter 1 : [Hyperloop Showcase](https://github.com/fzingg/hyperloop-showcase) 
 + Chapter 2 : [Hyperloop Showcase Template](https://github.com/fzingg/hyperloop-showcase-template) 
-+ Chapter 3 : [Hyperloop Showcase with HEROKU (Debug way)](https://github.com/fzingg/hyperloop-showcase-heroku) 
-+ Chapter 4 : [Hyperloop Showcase with HEROKU (Fast way)](https://github.com/fzingg/hyperloop-showcase-template-heroku) 
++ Chapter 3 : [Hyperloop Showcase with Heroku (Debug way)](https://github.com/fzingg/hyperloop-showcase-heroku) 
++ Chapter 4 : [Hyperloop Showcase with Heroku (Fast way)](https://github.com/fzingg/hyperloop-showcase-template-heroku) 
 
-For more information : [HyperLoop Web site](http://ruby-hyperloop.io/)
+For more information : [Hyperloop Web site](http://ruby-hyperloop.io/)
 
 ## INTRODUCTION
 
-This tutorial shows how to deploy quickly the **Hyperloop showcase** on a **HEROKU** Server.
+This tutorial shows how to deploy quickly the **Hyperloop showcase** on a **Heroku** Server.
 
-This tutorial requires you already have the **Hyperloop showcase** running perfectly on your local environment. If it's not yet the case, please read and follow one of these 2 tutorials : [Hyperloop Showcase](https://github.com/fzingg/hyperloop-showcase) and [Hyperloop Showcase Template](https://github.com/fzingg/hyperloop-showcase-template)
+This tutorial assumes you already have the **Hyperloop showcase** running successfully on your local environment. If that is not yet the case, please read and follow one of these 2 tutorials: [Hyperloop Showcase](https://github.com/fzingg/hyperloop-showcase) or [Hyperloop Showcase Template](https://github.com/fzingg/hyperloop-showcase-template)
 
 ## DEPLOYING TUTORIAL
 
-#### Setup of a new HEROKU app
+#### Setup a new Heroku app
 
 ```
 heroku login
